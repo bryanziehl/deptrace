@@ -1,0 +1,22 @@
+{
+  "name": "deptrace",
+  "version": "0.1.0",
+  "description": "Dependency lineage analysis for Node.js lockfiles",
+  "main": "index.js",
+  "bin": {
+    "deptrace": "./src/cli/deptrace.js"
+  },
+  "scripts": {
+    "start": "node src/cli/deptrace.js",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "dependencies",
+    "npm",
+    "diagnostics",
+    "dependency-graph",
+    "dependency-lineage"
+  ],
+  "author": "",
+  "license": "ISC"
+}
