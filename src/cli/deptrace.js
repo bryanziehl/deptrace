@@ -1,4 +1,10 @@
-#!/usr/bin/env node
+/*
+deptrace
+
+Dependency lineage analysis for Node.js projects.
+
+https://github.com/bryanziehl/deptrace
+*/
 
 const path = require("path");
 const { parseLockfile } = require("../graph/parseLockfile");

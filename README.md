@@ -86,17 +86,13 @@ npx deptrace <package-name>
 
 ---
 
-## Status
-
-Early release (v0.1)
-
-Current capabilities:
+## Current Features
 
 - `package-lock.json` parsing
 - dependency graph construction
 - dependency lineage tracing
 
-Future improvements may include:
+Planned improvements:
 
 - tree-style output
 - yarn/pnpm support

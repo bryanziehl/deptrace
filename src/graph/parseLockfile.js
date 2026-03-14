@@ -1,3 +1,11 @@
+/*
+deptrace
+
+Dependency lineage analysis for Node.js projects.
+
+https://github.com/bryanziehl/deptrace
+*/
+
 const fs = require("fs");
 
 function normalizeName(pkgPath, pkgData) {

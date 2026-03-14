@@ -1,3 +1,11 @@
+/*
+deptrace
+
+Dependency lineage analysis for Node.js projects.
+
+https://github.com/bryanziehl/deptrace
+*/
+
 function resolveLineage(graph, targetName) {
   const { nodes, reverseEdges } = graph;
 
